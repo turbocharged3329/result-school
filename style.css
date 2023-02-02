@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap');
+body {
+    font-family: Comfortaa, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: .04em;
+    color:  white;
+    background-image: url('https://damion.club/uploads/posts/2022-09/1664064361_10-damion-club-p-fon-dlya-ikonki-krasivo-10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+h5 {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 14px;
+}
+
+a {
+    font-size: 1.2rem;
+    color:#817066;
+    text-decoration: none;
+}
+
+a:visited {
+    color:bisque;
+}
+
+a:hover {
+    color:orange;
+}
+
+a:active {
+    color:coral;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    margin-bottom: 10px;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+    font-family: Comfortaa, Verdana, sans-serif;
+    width: 100%;
+}
+
+textarea {
+    border: none;
+}
+
+input::placeholder, textarea::placeholder {
+    color: darkgrey;
+}
+
+input:focus, textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.main {
+    width: 80%;
+}
+
+.avatar {
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.main-info {
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 2%;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid;
+    border-color:darkgrey;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px 0px;
+    width: 100%;
+    background-color: #828282; 
+}
+
+.card.contacme {
+    width: 50%;
+    align-self: flex-start;
+}
+
+.btn {
+    background-color: #000;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    font-family: Comfortaa, Verdana, sans-serif;
+}
+.btn:active {
+    background-color: orangered;
+}
+.btn:hover {
+    background-color:orange;
+}
+
+table {
+    width: 100%;
+    height: auto;
+}
+
+th {
+    text-align: left;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+
+td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color:#898176;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 12px;
+    }
+
+    .avatar {
+        display: block;
+        margin: auto;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .card.contacme {
+        width: 100%;
+    }
+}
